@@ -1,0 +1,13 @@
+You should treat warnings as errors when learning.
+You can add command arguments to the task.json file to ensure that the program will not compile when there are warnings.
+
+Additional build arguments for this case:
+
+    "-Werror",
+    "-Wall",
+    "-Weffc++",
+    "-Wextra",
+    "-Wconversion",
+    "-Wsign-conversion",
+    "-pedantic-errors",
+
